@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML FORMS</title>
+    <link rel="stylesheet" href="HTML Forms.css">
+</head>
+<body>
+    <header>
+    <h1>HTML FORMS</h1>
+    <form>
+        
+        <label for="Username">Username: </label>
+        <input type="text" id="Username" placeholder="User name" required><br><br>
+        <label for="Password">Password: </label>
+        <input type="Password" id="Password" placeholder="User Password" required><br><br>
+        <label for="Email">Email: </label>
+        <input type="Email" id="Email" placeholder="User Email" required><br><br>
+        
+        <!-- lets start to write gender part -->
+    <div>
+        <p>Select your gender</p>
+        <label for="male">Male: </label>
+        <input type="radio" name="gender" id="male" value="male"><br>
+        <label for="female">Female: </label>
+        <input type="radio" name="gender" id="female" value="female"><br>
+        <label for="other">Other: </label>
+        <input type="radio" name="gender" id="other" value="other"><br><br>
+        <!-- lets start to insert dropdown list -->
+        <label for="country-group">Country</label>
+        <select type="country-group-values" id="">
+            <option value="">India</option>
+            <option value="">Sri-Lanka</option>
+            <option value="">Nepal</option>
+            <option value="">Russia</option>
+            <option value="">U.S.A</option>
+            <option value="">England</option>
+            <option value="">Canada</option>
+            <option value="">China</option>
+            <option value="">Japan</option>
+            <option value="">Australia</option>
+            <option value="">New-Zealand</option>
+            <option value="">Germany</option>
+        </select>
+        <br><br>
+    </div> 
+        <label for="age-group">Select Your Age</label>
+        <select type="age-group-values" id="age-group">
+            <option value="1-10">1-10</option>
+            <option value="10-20">10-20</option>
+            <option value="20-30">20-30</option>
+            <option value="30-40">30-40</option>
+            <option value="40-50">40-50</option>
+            <option value="50+">50+</option>
+        </select><br><br>
+        <!-- lets start to add text-area, color,date....etc -->
+        <p>Write About Yourself Below</p>
+        <textarea name="" id="" cols="30" rows="10" placeholder="Type here"></textarea>
+        <br>
+        <!-- lets start to insert color and date  -->
+        <label for="">Color: </label>
+        <input type="color" name="" id=""><br>
+        <label for="">Date: </label>
+        <input type="date" name="" id=""><br>
+        <label for="">File: </label>
+        <input type="file" name="" id=""><br><br>
+        <!-- lets start to insert the submit button -->
+        <input type="submit" value="sign-in">
+
+    </form>
+    </header>
+</body>
+</html>
